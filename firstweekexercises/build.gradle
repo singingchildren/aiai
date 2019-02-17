@@ -60,6 +60,15 @@ configurations.all {
     }
 }
 
+<<<<<<< HEAD
 dependencies {
+=======
+// 在 Moudle:app的  build.gradle 文件中添加:
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao' // apply plugin
+
+dependencies {
+    implementation 'org.greenrobot:greendao:3.2.2' // add library
+>>>>>>> Initial commit
     implementation 'com.android.support.constraint:constraint-layout:+'
 }
